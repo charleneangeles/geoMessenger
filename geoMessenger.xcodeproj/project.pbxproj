@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76BB66EF9906B97439EA19F1 /* Pods_geoMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC62FC2483C0FA0A1DF2366 /* Pods_geoMessenger.framework */; };
 		F24D47E71F9514040079F983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D47E61F9514040079F983 /* AppDelegate.swift */; };
 		F24D47E91F9514040079F983 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D47E81F9514040079F983 /* FirstViewController.swift */; };
 		F24D47EB1F9514040079F983 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D47EA1F9514040079F983 /* SecondViewController.swift */; };
 		F24D47EE1F9514040079F983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24D47EC1F9514040079F983 /* Main.storyboard */; };
 		F24D47F01F9514040079F983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24D47EF1F9514040079F983 /* Assets.xcassets */; };
 		F24D47F31F9514040079F983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24D47F11F9514040079F983 /* LaunchScreen.storyboard */; };
+		F24D47FB1F9518D80079F983 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D47FA1F9518D80079F983 /* Message.swift */; };
+		F24D47FD1F951B280079F983 /* MapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D47FC1F951B280079F983 /* MapViewExtension.swift */; };
+		F24D48001F959B110079F983 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D47FF1F959B110079F983 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8BC62FC2483C0FA0A1DF2366 /* Pods_geoMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geoMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98AA390A8BA4FDD94124C87A /* Pods-geoMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoMessenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-geoMessenger/Pods-geoMessenger.debug.xcconfig"; sourceTree = "<group>"; };
+		D27E5481B76E5241995B9CF3 /* Pods-geoMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoMessenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-geoMessenger/Pods-geoMessenger.release.xcconfig"; sourceTree = "<group>"; };
 		F24D47E31F9514040079F983 /* geoMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geoMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24D47E61F9514040079F983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F24D47E81F9514040079F983 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,10 @@
 		F24D47EF1F9514040079F983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F24D47F21F9514040079F983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F24D47F41F9514040079F983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24D47FA1F9518D80079F983 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		F24D47FC1F951B280079F983 /* MapViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewExtension.swift; sourceTree = "<group>"; };
+		F24D47FE1F9595340079F983 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		F24D47FF1F959B110079F983 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76BB66EF9906B97439EA19F1 /* Pods_geoMessenger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		563B7280A782DA7CF51D4EC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BC62FC2483C0FA0A1DF2366 /* Pods_geoMessenger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6C6F3126DD8BF8AF4093186 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98AA390A8BA4FDD94124C87A /* Pods-geoMessenger.debug.xcconfig */,
+				D27E5481B76E5241995B9CF3 /* Pods-geoMessenger.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F24D47DA1F9514040079F983 = {
 			isa = PBXGroup;
 			children = (
 				F24D47E51F9514040079F983 /* geoMessenger */,
 				F24D47E41F9514040079F983 /* Products */,
+				B6C6F3126DD8BF8AF4093186 /* Pods */,
+				563B7280A782DA7CF51D4EC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +94,10 @@
 				F24D47EF1F9514040079F983 /* Assets.xcassets */,
 				F24D47F11F9514040079F983 /* LaunchScreen.storyboard */,
 				F24D47F41F9514040079F983 /* Info.plist */,
+				F24D47FE1F9595340079F983 /* GoogleService-Info (1).plist */,
+				F24D47FA1F9518D80079F983 /* Message.swift */,
+				F24D47FC1F951B280079F983 /* MapViewExtension.swift */,
+				F24D47FF1F959B110079F983 /* CameraViewController.swift */,
 			);
 			path = geoMessenger;
 			sourceTree = "<group>";
@@ -74,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F24D47F71F9514040079F983 /* Build configuration list for PBXNativeTarget "geoMessenger" */;
 			buildPhases = (
+				CAF9EC0CFF52BFFDAD09ED99 /* [CP] Check Pods Manifest.lock */,
 				F24D47DF1F9514040079F983 /* Sources */,
 				F24D47E01F9514040079F983 /* Frameworks */,
 				F24D47E11F9514040079F983 /* Resources */,
+				80D111B43896BCB042AB0919 /* [CP] Embed Pods Frameworks */,
+				073FF645802F3C82B10864AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +172,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		073FF645802F3C82B10864AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geoMessenger/Pods-geoMessenger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80D111B43896BCB042AB0919 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-geoMessenger/Pods-geoMessenger-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geoMessenger/Pods-geoMessenger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAF9EC0CFF52BFFDAD09ED99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-geoMessenger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F24D47DF1F9514040079F983 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F24D47EB1F9514040079F983 /* SecondViewController.swift in Sources */,
+				F24D47FB1F9518D80079F983 /* Message.swift in Sources */,
 				F24D47E71F9514040079F983 /* AppDelegate.swift in Sources */,
+				F24D47FD1F951B280079F983 /* MapViewExtension.swift in Sources */,
 				F24D47E91F9514040079F983 /* FirstViewController.swift in Sources */,
+				F24D48001F959B110079F983 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +379,7 @@
 		};
 		F24D47F81F9514040079F983 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98AA390A8BA4FDD94124C87A /* Pods-geoMessenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +395,7 @@
 		};
 		F24D47F91F9514040079F983 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27E5481B76E5241995B9CF3 /* Pods-geoMessenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
