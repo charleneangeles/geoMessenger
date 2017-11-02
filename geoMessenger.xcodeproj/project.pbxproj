@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		76BB66EF9906B97439EA19F1 /* Pods_geoMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC62FC2483C0FA0A1DF2366 /* Pods_geoMessenger.framework */; };
+		F20441671FAA888900032128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F20441661FAA888900032128 /* GoogleService-Info.plist */; };
+		F204416B1FAA8F5800032128 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F204416A1FAA8F5800032128 /* CustomButton.swift */; };
+		F204416D1FAA8FD700032128 /* Tables.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F204416C1FAA8FD700032128 /* Tables.storyboard */; };
+		F20441851FAA930100032128 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20441831FAA930100032128 /* AkiraTextField.swift */; };
+		F20441861FAA930100032128 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20441841FAA930100032128 /* HoshiTextField.swift */; };
+		F20441901FAA930E00032128 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20441871FAA930D00032128 /* TextFieldEffects.swift */; };
+		F20441911FAA930E00032128 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20441881FAA930D00032128 /* JiroTextField.swift */; };
+		F20441921FAA930E00032128 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20441891FAA930D00032128 /* YoshikoTextField.swift */; };
+		F20441931FAA930E00032128 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F204418A1FAA930D00032128 /* KaedeTextField.swift */; };
+		F20441941FAA930E00032128 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F204418C1FAA930D00032128 /* MinoruTextField.swift */; };
+		F20441951FAA930E00032128 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F204418D1FAA930E00032128 /* YokoTextField.swift */; };
+		F20441961FAA930E00032128 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F204418E1FAA930E00032128 /* MadokaTextField.swift */; };
+		F20441971FAA930E00032128 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F204418F1FAA930E00032128 /* IsaoTextField.swift */; };
+		F204419D1FAA966100032128 /* TablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F204419C1FAA966100032128 /* TablesViewController.swift */; };
+		F204419F1FAA96B200032128 /* TablesTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F204419E1FAA96B200032128 /* TablesTableTableViewController.swift */; };
+		F20441A31FAAA20300032128 /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20441A21FAAA20300032128 /* UserItem.swift */; };
 		F24D47E71F9514040079F983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D47E61F9514040079F983 /* AppDelegate.swift */; };
-		F24D47E91F9514040079F983 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D47E81F9514040079F983 /* FirstViewController.swift */; };
+		F24D47E91F9514040079F983 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D47E81F9514040079F983 /* MapViewController.swift */; };
 		F24D47EB1F9514040079F983 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D47EA1F9514040079F983 /* SecondViewController.swift */; };
 		F24D47EE1F9514040079F983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24D47EC1F9514040079F983 /* Main.storyboard */; };
 		F24D47F01F9514040079F983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24D47EF1F9514040079F983 /* Assets.xcassets */; };
-		F24D47F31F9514040079F983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24D47F11F9514040079F983 /* LaunchScreen.storyboard */; };
 		F24D47FB1F9518D80079F983 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D47FA1F9518D80079F983 /* Message.swift */; };
 		F24D47FD1F951B280079F983 /* MapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D47FC1F951B280079F983 /* MapViewExtension.swift */; };
 		F24D48001F959B110079F983 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D47FF1F959B110079F983 /* CameraViewController.swift */; };
@@ -23,17 +38,32 @@
 		8BC62FC2483C0FA0A1DF2366 /* Pods_geoMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geoMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98AA390A8BA4FDD94124C87A /* Pods-geoMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoMessenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-geoMessenger/Pods-geoMessenger.debug.xcconfig"; sourceTree = "<group>"; };
 		D27E5481B76E5241995B9CF3 /* Pods-geoMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoMessenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-geoMessenger/Pods-geoMessenger.release.xcconfig"; sourceTree = "<group>"; };
+		F20441661FAA888900032128 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/geoMessenger-master 2/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F204416A1FAA8F5800032128 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F204416C1FAA8FD700032128 /* Tables.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tables.storyboard; sourceTree = "<group>"; };
+		F20441831FAA930100032128 /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkiraTextField.swift; sourceTree = "<group>"; };
+		F20441841FAA930100032128 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		F20441871FAA930D00032128 /* TextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		F20441881FAA930D00032128 /* JiroTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JiroTextField.swift; sourceTree = "<group>"; };
+		F20441891FAA930D00032128 /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
+		F204418A1FAA930D00032128 /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaedeTextField.swift; sourceTree = "<group>"; };
+		F204418B1FAA930D00032128 /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
+		F204418C1FAA930D00032128 /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinoruTextField.swift; sourceTree = "<group>"; };
+		F204418D1FAA930E00032128 /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YokoTextField.swift; sourceTree = "<group>"; };
+		F204418E1FAA930E00032128 /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadokaTextField.swift; sourceTree = "<group>"; };
+		F204418F1FAA930E00032128 /* IsaoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsaoTextField.swift; sourceTree = "<group>"; };
+		F204419C1FAA966100032128 /* TablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablesViewController.swift; sourceTree = "<group>"; };
+		F204419E1FAA96B200032128 /* TablesTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablesTableTableViewController.swift; sourceTree = "<group>"; };
+		F20441A21FAAA20300032128 /* UserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
 		F24D47E31F9514040079F983 /* geoMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geoMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24D47E61F9514040079F983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F24D47E81F9514040079F983 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F24D47E81F9514040079F983 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F24D47EA1F9514040079F983 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F24D47ED1F9514040079F983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F24D47EF1F9514040079F983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F24D47F21F9514040079F983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F24D47F41F9514040079F983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F24D47FA1F9518D80079F983 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		F24D47FC1F951B280079F983 /* MapViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewExtension.swift; sourceTree = "<group>"; };
-		F24D47FE1F9595340079F983 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		F24D47FF1F959B110079F983 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +96,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F20441691FAA8B8E00032128 /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				F20441831FAA930100032128 /* AkiraTextField.swift */,
+				F20441841FAA930100032128 /* HoshiTextField.swift */,
+				F204418F1FAA930E00032128 /* IsaoTextField.swift */,
+				F20441881FAA930D00032128 /* JiroTextField.swift */,
+				F204418A1FAA930D00032128 /* KaedeTextField.swift */,
+				F204418E1FAA930E00032128 /* MadokaTextField.swift */,
+				F204418C1FAA930D00032128 /* MinoruTextField.swift */,
+				F204418B1FAA930D00032128 /* TextFieldEffects.h */,
+				F20441871FAA930D00032128 /* TextFieldEffects.swift */,
+				F204418D1FAA930E00032128 /* YokoTextField.swift */,
+				F20441891FAA930D00032128 /* YoshikoTextField.swift */,
+				F204416A1FAA8F5800032128 /* CustomButton.swift */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
 		F24D47DA1F9514040079F983 = {
 			isa = PBXGroup;
 			children = (
@@ -87,14 +136,18 @@
 		F24D47E51F9514040079F983 /* geoMessenger */ = {
 			isa = PBXGroup;
 			children = (
-				F24D47E61F9514040079F983 /* AppDelegate.swift */,
-				F24D47E81F9514040079F983 /* FirstViewController.swift */,
-				F24D47EA1F9514040079F983 /* SecondViewController.swift */,
+				F20441691FAA8B8E00032128 /* CustomControls */,
 				F24D47EC1F9514040079F983 /* Main.storyboard */,
+				F24D47E61F9514040079F983 /* AppDelegate.swift */,
+				F20441A21FAAA20300032128 /* UserItem.swift */,
+				F24D47E81F9514040079F983 /* MapViewController.swift */,
+				F24D47EA1F9514040079F983 /* SecondViewController.swift */,
 				F24D47EF1F9514040079F983 /* Assets.xcassets */,
-				F24D47F11F9514040079F983 /* LaunchScreen.storyboard */,
+				F204416C1FAA8FD700032128 /* Tables.storyboard */,
+				F204419E1FAA96B200032128 /* TablesTableTableViewController.swift */,
+				F204419C1FAA966100032128 /* TablesViewController.swift */,
+				F20441661FAA888900032128 /* GoogleService-Info.plist */,
 				F24D47F41F9514040079F983 /* Info.plist */,
-				F24D47FE1F9595340079F983 /* GoogleService-Info (1).plist */,
 				F24D47FA1F9518D80079F983 /* Message.swift */,
 				F24D47FC1F951B280079F983 /* MapViewExtension.swift */,
 				F24D47FF1F959B110079F983 /* CameraViewController.swift */,
@@ -164,7 +217,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F24D47F31F9514040079F983 /* LaunchScreen.storyboard in Resources */,
+				F204416D1FAA8FD700032128 /* Tables.storyboard in Resources */,
+				F20441671FAA888900032128 /* GoogleService-Info.plist in Resources */,
 				F24D47F01F9514040079F983 /* Assets.xcassets in Resources */,
 				F24D47EE1F9514040079F983 /* Main.storyboard in Resources */,
 			);
@@ -239,12 +293,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20441861FAA930100032128 /* HoshiTextField.swift in Sources */,
+				F20441851FAA930100032128 /* AkiraTextField.swift in Sources */,
 				F24D47EB1F9514040079F983 /* SecondViewController.swift in Sources */,
 				F24D47FB1F9518D80079F983 /* Message.swift in Sources */,
+				F20441921FAA930E00032128 /* YoshikoTextField.swift in Sources */,
+				F20441901FAA930E00032128 /* TextFieldEffects.swift in Sources */,
+				F20441961FAA930E00032128 /* MadokaTextField.swift in Sources */,
+				F20441911FAA930E00032128 /* JiroTextField.swift in Sources */,
+				F204419F1FAA96B200032128 /* TablesTableTableViewController.swift in Sources */,
+				F20441931FAA930E00032128 /* KaedeTextField.swift in Sources */,
 				F24D47E71F9514040079F983 /* AppDelegate.swift in Sources */,
 				F24D47FD1F951B280079F983 /* MapViewExtension.swift in Sources */,
-				F24D47E91F9514040079F983 /* FirstViewController.swift in Sources */,
+				F204416B1FAA8F5800032128 /* CustomButton.swift in Sources */,
+				F20441951FAA930E00032128 /* YokoTextField.swift in Sources */,
+				F20441971FAA930E00032128 /* IsaoTextField.swift in Sources */,
+				F20441A31FAAA20300032128 /* UserItem.swift in Sources */,
+				F204419D1FAA966100032128 /* TablesViewController.swift in Sources */,
+				F24D47E91F9514040079F983 /* MapViewController.swift in Sources */,
 				F24D48001F959B110079F983 /* CameraViewController.swift in Sources */,
+				F20441941FAA930E00032128 /* MinoruTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +325,6 @@
 				F24D47ED1F9514040079F983 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F24D47F11F9514040079F983 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F24D47F21F9514040079F983 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
